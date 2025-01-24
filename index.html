@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231 Web Frontend Development I- Olubisi Ayantoye">
+    <meta name="author" content="Olubisi Ayantoye">
+    <title>WDD 231 Web Frontend Development</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap"
+      rel="stylesheet">
+    <!-- Favicon -->
+     <link rel="icon" href="favicon.ico">
+    <!-- Javascript -->
+    <script defer src="scripts/script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Need to be responsive -->
+        <a id="menu" href="#" aria-label="Toggle Navigation" aria-expanded="false"></a>
+        <div class="hero">
+            <img src="images/imga.png" class="curved-image" srcset="images/imga.png" alt="Olubisi O. Ayantoye" width="100" height="100" class="shadow">
+            <h1>Olubisi O. Ayantoye</h1>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="https://github.com/olubisiayantoye" target="_blank">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/olubisi-ayantoye-kingson/" target="_blank">LinkedIn</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <section class="box margin-bottom-1 section-one">
+                <h2 class="section-header">Course Work</h2>
+                <ul id="courses-list"></ul>
+            </section>
+            <section class="box margin-bottom-1 section-two">
+                <h2 class="section-header">Ilorin, Nigeria</h2>
+                <div class="my-place-photo">
+                    <img src="images/nigerian-farmer.webp" alt="nigerian farmer" srcset="images/nigerian-farmer.webp" width="350" height="263">
+                </div>
+                <p>Nigerian Farmer</p>
+            </section>
+        </div>
+        <section class="box margin-bottom-1 section-three">
+            <h2 class="section-header">Web and Computer Programming Certificate(Courses)</h2>
+            <div class="button-certificate">
+                <button class="btn" id="btn-all">All</button>
+                <button class="btn" id="btn-cse">CSE</button>
+                <button class="btn" id="btn-wdd">WDD</button>
+            </div>
+            <hr>
+            <ul id="certificate-list"></ul>
+            <hr>
+            <p id="total-credit"></p>
+            
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p><span id="currentYear"></span> 🌺 Olubisi Olatunde Ayantoye 🌺 Nigeria</p>
+    <p class="smaller" id="lastModified">Last Modification: 20/11/2024 12:00:00</p>
+    </footer>
+</body>
+</html>
