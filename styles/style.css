@@ -225,7 +225,10 @@ section h2 {
       flex-direction: column;
       gap: 0;
   }
-  
+  .classSec {
+    order: 3;
+
+}
   .secClass {
       order: 1; 
   }
