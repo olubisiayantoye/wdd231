@@ -96,23 +96,20 @@ li {
   gap: 1rem;
 }
 
-.section-one {
+.secClass {
   flex:2;
   text-align: center;
 }
 
-.section-two {
+.sectionCard {
   flex:1;
   align-items: center;
   text-align: center;
 }
 
-.section-three {
-  align-items: center;
-  text-align: center;
-}
 
-.my-place-photo {
+
+.imagePhoto {
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -131,7 +128,7 @@ section h2 {
   border-radius: .5rem .5rem 0 0;
 }
 
-.margin-bottom-1 {
+.marginOne {
   margin-bottom: 1rem;
 }
 
@@ -213,6 +210,11 @@ section h2 {
   height: auto; /* Maintain aspect ratio */
   border-radius: 15px; /* Adjust radius for more/less curve */
 }
+
+.classSec {
+  align-items: center;
+  text-align: center;
+}
 /* Media Queries */
 @media (max-width: 768px) {
   html {
@@ -224,21 +226,17 @@ section h2 {
       gap: 0;
   }
   
-  .section-one {
+  .secClass {
       order: 1; 
   }
   
-  .section-two {
+  .sectionCard {
       order: 2;
   
   }
+
   
-  .section-three {
-      order: 3;
-  
-  }
-  
-  .my-place-photo img{
+  .imagePhoto img{
       height: auto;
       max-width: 279px;
   
