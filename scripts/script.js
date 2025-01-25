@@ -8,12 +8,12 @@ document.querySelector("#lastModified").textContent = `Last Modification: ${docu
 document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('.navigation ul li a');
     const courseList = document.querySelector('#courses-list');
-    const certificateList = document.querySelector('#certificate-list');
+    const certificateList = document.querySelector('#courseList');
     const hamburger = document.querySelector('#menu');
     const nav = document.querySelector('.navigation');
-    const btnCSE = document.querySelector('#btn-cse');
-    const btnWDD = document.querySelector('#btn-wdd');
-    const btnAll = document.querySelector('#btn-all');
+    const bottonComp = document.querySelector('#botton-Comp');
+    const bottonWeb = document.querySelector('#botton-Web');
+    const allButtons = document.querySelector('#all-Buttons');
     const totalCredit = document.querySelector('#total-credit');
     const titleTotalCredit = 'The total number of credits required = ';
 
@@ -137,19 +137,19 @@ document.addEventListener('DOMContentLoaded', function() {
     displayCourses(courseswork, certificateList);
 
     // Filter Button Event Listeners
-    btnCSE.addEventListener('click', () => {
+    bottonComp.addEventListener('click', () => {
         const filteredCourses = courseswork.filter(course => course.subject === 'CSE');
         totalCredit.textContent = titleTotalCredit + filteredCourses.reduce((total, course) => total + course.credits, 0);
         displayCourses(filteredCourses, certificateList);
     });
 
-    btnWDD.addEventListener('click', () => {
+    bottonWeb.addEventListener('click', () => {
         const filteredCourses = courseswork.filter(course => course.subject === 'WDD');
         totalCredit.textContent = titleTotalCredit + filteredCourses.reduce((total, course) => total + course.credits, 0);
         displayCourses(filteredCourses, certificateList);
     });
 
-    btnAll.addEventListener('click', () => {
+    allButtons.addEventListener('click', () => {
         totalCredit.textContent = titleTotalCredit + courseswork.reduce((total, course) => total + course.credits, 0);
         displayCourses(courseswork, certificateList);
     });
@@ -162,13 +162,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const courseCompletedStyle = document.createElement('style');
     courseCompletedStyle.innerHTML = `
-        #certificate-list li {
-            list-style: none;
+        #courseList li {
             padding: 5px;
             margin: 5px 0;
             border: 1px solid black;
+             list-style: none;
                                   }
-        #certificate-list li.completed {
+        #courseList li.completed {
             background-color:rgb(18, 205, 99);
             color: #FFF;
         }
