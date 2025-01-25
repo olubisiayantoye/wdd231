@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const bottonWeb = document.querySelector('#botton-Web');
     const allButtons = document.querySelector('#all-Buttons');
     const totalCredit = document.querySelector('#total-credit');
-    const titleTotalCredit = 'The total number of credits required = ';
+    const titleTotalCredit = 'Total number of credits: ';
 
     // Courselist Array
     const courseswork = [ 
