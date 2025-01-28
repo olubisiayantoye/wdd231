@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navigation Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <div class="container header-container">
+    <div class="logo">
+        <img src="images/imga.png" alt="Timbuktu Logo">
+      <div>
+        <h2>Timbuktu Chamber</h2>
+        <p>Chamber of Commerce</p>
+      </div>
+    </div>
+
+      <nav id="main-menu" class="menu ">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="membership.html">Membership</a>
+        <a href="directory.html">Directory</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    
+    <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+    <button id="menu-toggle" class="hamburger">☰</button>
+
+</div>
+</header>
+<section class="hero">
+    <img src="images/hero.jpg" alt="City of Timbuktu">
+    <button class="cta-button">Keynote Tickets</button>
+</section>
+
+    <!-- Home Section -->
+    <section id="home" class="home-content">
+        <h2>Home</h2>
+        <div class="content-grid">
+
+            <div class="card events">
+                <div class="card-header">Upcoming Events</div>
+                <div class="card-body">
+                <p>Don't miss out on our latest workshops and networking events.</p>
+               </div>
+            </div>
+            <div class="card weather">
+                <div class="card-header">Current Weather</div>
+                 <div class="card-body">
+                   <p>75°F, Partly Cloudy<br>High: 85°F | Low: 52°F</p>
+                 </div>
+            </div>
+            <div class="card forecast">
+                <div class="card-header">Weather Forecast</div>
+                  <div class="card-body">
+                   <p>Today: 90°F<br>Wednesday: 89°F<br>Thursday: 68°F</p>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Directory -->
+    <section id="directory" class="business-directory">
+        <h2>Business Directory</h2>
+        <div class="business-grid">
+            <div class="business-card">
+                <h3>Business Name</h3>
+                <p>Business Tagline</p>
+                <hr>
+                <div class="bis-card">
+                  <img src="images/imga.png" alt="Business 1">
+                  <div>
+                    <p>Email: info@business1.com<br>Phone: 123-456-7890<br>Website: www.business1.com</p>
+                  </div>
+                </div>
+            </div>
+            <div class="business-card">
+                <h3>Business Name</h3>
+                <p>Business Tagline</p>
+                <hr>
+                <div class="bis-card">
+                  <img src="images/imga.png" alt="Business 1">
+                  <div>
+                    <p>Email: info@business1.com<br>Phone: 123-456-7890<br>Website: www.business1.com</p>
+                  </div>
+                </div>
+            </div>
+            <div class="business-card">
+                <h3>Business Name</h3>
+                <p>Business Tagline</p>
+                <hr>
+                <div class="bis-card">
+                  <img src="images/imga.png" alt="Business 1">
+                  <div>
+                    <p>Email: info@business1.com<br>Phone: 123-456-7890<br>Website: www.business1.com</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+   <footer>
+    <div class="footer-content content-gridfooter  ">
+        <div class="cardfooter footer-info ">
+            <p>Timbuktu Chamber of Commerce<br>10 Rue De La Paix, Timbuktu, Mali</p>
+            <p>Email: info@timbuktucc.org<br>Phone: (223) 555-2300</p>
+        </div>
+        <div class="social-links ">
+            <a href="#">YouTube</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+       <div class="cardfooter">
+         <p><span id="currentYear"></span> 🌺 Timbuktu Chamber of Commerce. 🌺 All rights reserved.</p>
+         <p class="smaller" id="lastModified">Last Modification: 20/11/2024 12:00:00</p>
+        </div>
+    </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
