@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
               section.innerHTML = `
                   <img src="${member.image_icon}" alt="${member.name}" />
-                  <h3>${member.name}</h3>
+                  <h2>${member.name}</h2>
                   <p>${member.address}</p>
                   <p><strong>Phone:</strong> ${member.phone_number}</p>
                   <a href="${member.website_url}" target="_blank">Visit Website</a>
