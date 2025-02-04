@@ -10,25 +10,18 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
+const buttons = document.querySelectorAll("[data-view]");
+const display = document.querySelector("#members-container");
 
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+// Set default view
+display.classList.add("grid");
 
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const view = button.getAttribute("data-view");
+    display.className = view; // Removes existing class and adds the new one
+  });
 });
-
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
-
 
 
 
