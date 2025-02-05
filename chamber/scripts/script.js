@@ -48,3 +48,30 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .catch(error => console.error('Error loading member.json:', error));
 });
+
+
+
+
+const apiKey = '60203ebaa92c1129b975eb61cf7bbdfc';
+const weatherUrl = `https://api.openweathermap.org/data/2.5/forecast?q=Timbuktu,ML&units=imperial&appid=${apiKey}`;
+
+fetch(weatherUrl)
+  .then(response => response.json())
+  .then(data => {
+    const weatherSection = document.querySelector('.weather');
+    const forecast = data.list.slice(0, 3).map(day => `
+      <p>${new Date(day.dt_txt).toLocaleDateString()}: ${Math.round(day.main.temp)}°F, ${day.weather[0].description}</p>
+    `).join('');
+    
+    weatherSection.innerHTML = `
+      <div class="card-header">Current Weather</div>
+      <div class="card-body">
+      <p>Temperature : ${Math.round(data.list[0].main.temp)}°F</p>
+      <p>${data.list[0].weather[0].description}</p>
+      <h3>3-Day Forecast</h3>
+      ${forecast}
+      </div>
+    `;
+  })
+  .catch(error => console.error('Error fetching weather data:', error));
+
