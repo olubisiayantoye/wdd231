@@ -26,28 +26,32 @@ buttons.forEach((button) => {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch('data/members.json')
-      .then(response => response.json())
-      .then(data => {
-          const container = document.getElementById('members-container');
+    fetch('data/companyspotlights.json')
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById('members-container');
 
-          data.forEach(member => {
-              const section = document.createElement('section');
+            // Shuffle the array and pick 3 random members
+            const randomMembers = data.sort(() => 0.5 - Math.random()).slice(0, 3);
 
-              section.innerHTML = `
-                  <img src="${member.image_icon}" alt="${member.name}" />
-                  <h2>${member.name}</h2>
-                  <p>${member.address}</p>
-                  <p><strong>Phone:</strong> ${member.phone_number}</p>
-                  <a href="${member.website_url}" target="_blank">Visit Website</a>
-                  <p><strong>Membership Level:</strong> ${member.membership_level}</p>
-              `;
+            randomMembers.forEach(member => {
+                const section = document.createElement('section');
 
-              container.appendChild(section);
-          });
-      })
-      .catch(error => console.error('Error loading member.json:', error));
+                section.innerHTML = `
+                    <img width="650px" height="500px" src="${member.image_icon}" alt="${member.name}" />
+                    <h2>${member.name}</h2>
+                    <p>${member.address}</p>
+                    <p><strong>Phone:</strong> ${member.phone_number}</p>
+                    <a href="${member.website_url}" target="_blank">Visit Website</a>
+                    <p><strong>Membership Level:</strong> ${member.membership_level}</p>
+                `;
+
+                container.appendChild(section);
+            });
+        })
+        .catch(error => console.error('Error loading companyspotlights.json:', error));
 });
+
 
 
 

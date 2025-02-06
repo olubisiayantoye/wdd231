@@ -1,3 +1,13 @@
+:root {
+  --primaryColor: #004c99;
+  --primaryColor-contrast: #FFF;
+  --backgroundColor: #FFFFFD;
+  --backgroundColor-contrast: #222139;
+  --button-color: #64301D;
+  --button-color-contrast: #E6EDEF;
+  
+}
+
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
@@ -72,7 +82,8 @@ body {
 }
 
 
- header {background-color: #004c99;
+ header {
+  background-color: var(--primaryColor);
   color: #fff;
   padding: 10px 20px;
   position: sticky;
@@ -114,10 +125,12 @@ body {
     bottom: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: #ff6600;
+    background-color:var(--primaryColor);
     color: #fff;
-    border: none;
+    font-size: large;
+    border-color: #FFF;
     cursor: pointer;
+    
   }
 
 
@@ -170,7 +183,7 @@ body {
  
  /* Footer */
 footer {
-    background-color: #004c99;
+    background-color: var(--primaryColor);
     color: white;
     padding: 20px;
    
@@ -203,7 +216,7 @@ footer {
 
 
 .card-header {
-    background-color: blue !important;
+    background-color:var(--primaryColor);
     color: white !important;
     text-align: center;
     padding: 10px;
