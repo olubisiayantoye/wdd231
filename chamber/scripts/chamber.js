@@ -54,8 +54,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
-
 const apiKey = '60203ebaa92c1129b975eb61cf7bbdfc';
 const weatherSection = document.querySelector('.weather');
 const lat = 47.8563;
