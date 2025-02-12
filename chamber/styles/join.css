@@ -70,21 +70,23 @@ input, textarea {
     opacity: 0; /* Start hidden */
     animation: fadeInFromTop 1s forwards;
   }
-  
-  .jcard:nth-child(1) {
+  .jcard:nth-child(0) {
     animation-delay: 0s;
   }
-  
-  .jcard:nth-child(2) {
+  .jcard:nth-child(1) {
     animation-delay: 0.5s;
   }
   
-  .jcard:nth-child(3) {
+  .jcard:nth-child(2) {
     animation-delay: 1s;
   }
   
-  .jcard:nth-child(4) {
+  .jcard:nth-child(3) {
     animation-delay: 1.5s;
+  }
+  
+  .jcard:nth-child(4) {
+    animation-delay: 2s;
   }
   
   @keyframes fadeInFromTop {
