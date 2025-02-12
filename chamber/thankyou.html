@@ -69,6 +69,7 @@
             <p><strong>Last Name:</strong> <span id="last-name"></span></p>
             <p><strong>Email:</strong> <span id="email"></span></p>
             <p><strong>Mobile Number:</strong> <span id="phone"></span></p>
+            <p><strong>Business Title:</strong> <span id="organization_Title"></span></p>
             <p><strong>Business Name:</strong> <span id="organization"></span></p>
             <p><strong>Application Date:</strong> <span id="timestamp"></span></p>
         </section>
@@ -107,6 +108,7 @@
         document.getElementById("last-name").innerText = params.get("last") || "N/A";
         document.getElementById("email").innerText = params.get("email") || "N/A";
         document.getElementById("phone").innerText = params.get("phone") || "N/A";
+        document.getElementById("organization_Title").innerText = params.get("organization_Title") || "N/A";
         document.getElementById("organization").innerText = params.get("organization") || "N/A";
         document.getElementById("timestamp").innerText = params.get("hiddendate") || "N/A";
     </script>
