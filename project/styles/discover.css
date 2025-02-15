@@ -1,0 +1,52 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "visitor"
+        "cards";
+    gap: 20px;
+    padding: 20px;
+}
+
+.visitor-message {
+    grid-area: visitor;
+    background: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+}
+
+.discover-cards {
+    grid-area: cards;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+@media (min-width: 641px) {
+    .discover-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1025px) {
+    .discover-cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

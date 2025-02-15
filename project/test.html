@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Nigeria's incredible diversity, culture, landmarks, cuisine, and potential. Explore the beauty and promise of Africa's giant.">
+    <title>Discover Nigeria - Home</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400;600&family=Georgia:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #008000;">
+        <div class="container">
+            <a class="navbar-brand" href="Home.html">Discover Nigeria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Culture.html">Culture</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Landmarks.html">Landmarks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Cuisine.html">Cuisine</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Potential.html">Potential</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-light text-center py-5">
+        <div class="container">
+            <h1 class="display-4" style="color: #008000;">Welcome to Discover Nigeria</h1>
+            <p class="lead">Explore the vibrant culture, breathtaking landmarks, delicious cuisine, and boundless potential of Nigeria.</p>
+            <a href="#explore" class="btn btn-lg" style="background-color: #FFD700; color: #FFFFFF;">Explore Now</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-5" id="explore">
+        <div class="container">
+            <h2 class="text-center mb-4" style="color: #008000;">About Nigeria</h2>
+            <p class="text-center">Nigeria, known as the "Giant of Africa," is a land of immense beauty, cultural diversity, and economic potential. From the bustling cities to serene villages, Nigeria offers a unique blend of tradition and modernity.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="https://example.com/culture.jpg" alt="Culture" class="img-fluid mb-3 lazy" loading="lazy">
+                    <h3 style="color: #008000;">Culture</h3>
+                    <p>Experience the vibrant traditions, music, and festivals of Nigeria.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://example.com/landmarks.jpg" alt="Landmarks" class="img-fluid mb-3 lazy" loading="lazy">
+                    <h3 style="color: #008000;">Landmarks</h3>
+                    <p>Explore iconic landmarks and natural wonders across Nigeria.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://example.com/cuisine.jpg" alt="Cuisine" class="img-fluid mb-3 lazy" loading="lazy">
+                    <h3 style="color: #008000;">Cuisine</h3>
+                    <p>Delight in the flavors of Nigeria's diverse and delicious dishes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4" style="background-color: #008000; color: #FFFFFF;">
+        <p>&copy; 2024 Discover Nigeria. All rights reserved. | <a href="Attributions.html" style="color: #FFD700;">Attributions</a></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // JavaScript to dynamically display a greeting based on the time of day
+        document.addEventListener("DOMContentLoaded", function() {
+            const hour = new Date().getHours();
+            const greeting = hour < 12 ? "Good Morning!" : hour < 18 ? "Good Afternoon!" : "Good Evening!";
+            alert(greeting + " Welcome to Discover Nigeria!");
+        });
+    </script>
+</body>
+</html>

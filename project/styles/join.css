@@ -1,0 +1,113 @@
+.jcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.jform-section, .jmembership-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.jbutton {
+    display: block;
+    width: 100%;
+    background: #004c99;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#levelModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 400px;
+}
+
+.jcard {
+    border: 5px solid #333;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    opacity: 0; /* Start hidden */
+    animation: fadeInFromTop 1s forwards;
+  }
+  .jcard:nth-child(0) {
+    animation-delay: 0s;
+  }
+  .jcard:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  
+  .jcard:nth-child(2) {
+    animation-delay: 1s;
+  }
+  
+  .jcard:nth-child(3) {
+    animation-delay: 1.5s;
+  }
+  
+  .jcard:nth-child(4) {
+    animation-delay: 2s;
+  }
+  
+  @keyframes fadeInFromTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px); /* Slide in from above */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Reset to original position */
+    }
+  }
+  
+
+
+@media (max-width: 768px) {
+    .jcontainer {
+        grid-template-columns: 1fr;
+    }
+    
+    #levelModal {
+        width: 80%;
+    }
+}

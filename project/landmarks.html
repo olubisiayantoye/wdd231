@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Nigeria's stunning natural and architectural landmarks, including Zuma Rock, Yankari National Park, and the Osun-Osogbo Sacred Grove.">
+    <title>Discover Nigeria - Landmarks</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400;600&family=Georgia:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <div class="logo">
+                <img class="circle" src="images/nigeria-logo.png" alt="Discover Nigeria Logo">
+              <div>
+                <p><strong>Discover Nigeria</strong></p>
+                <!--p>Explore the Heart of Africa</p-->
+              </div>
+            </div>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="culture.html">Culture</a></li>
+                    <li class="nav-item"><a class="nav-link" href="landmarks.html">Landmarks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cuisine.html">Cuisine</a></li>
+                    <li class="nav-item"><a class="nav-link" href="potential.html">Potential</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landmarks Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Landmarks</h2>
+            <p class="text-center">Discover Nigeria's breathtaking landmarks, each telling a story of the nation's history, culture, and natural beauty.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img data-src="images/zuma-rock.jpg" class="card-img-top lazy" alt="Zuma Rock, Gateway to Abuja" src="images/zuma-rock-placeholder.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Zuma Rock</h5>
+                            <p class="card-text">Known as the "Gateway to Abuja," Zuma Rock is a magnificent monolith that stands as a symbol of Nigeria's natural beauty.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img data-src="images/yankari.jpg" class="card-img-top lazy" alt="Yankari National Park, Home to Wildlife" src="images/yankari-placeholder.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Yankari National Park</h5>
+                            <p class="card-text">Explore wildlife and natural hot springs in one of Nigeria's most famous reserves.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img data-src="images/osun-grove.jpg" class="card-img-top lazy" alt="Osun-Osogbo Sacred Grove, Yoruba Heritage Site" src="images/osun-grove-placeholder.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Osun-Osogbo Sacred Grove</h5>
+                            <p class="card-text">A UNESCO World Heritage Site, this grove is a spiritual sanctuary and a symbol of Yoruba heritage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h3>Aso Rock</h3>
+                    <p>Located in Abuja, Aso Rock is a prominent geological feature that serves as a backdrop to the Nigerian capital's iconic structures.</p>
+                </div>
+                <div class="col-md-6">
+                    <img data-src="images/aso-rock.jpg" alt="Aso Rock in Abuja" class="img-fluid lazy" src="images/aso-rock-placeholder.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p><span id="currentYear"></span> Discover Nigeria. All rights reserved. | <a href="Attributions.html">Attributions</a></p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

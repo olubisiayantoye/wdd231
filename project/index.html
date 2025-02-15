@@ -4,8 +4,8 @@
 <!-- Standard Meta Tags -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chamber of Commerce Directory | Find Local Businesses & Services</title>
-<meta name="description" content="Explore the Chamber of Commerce Directory to find trusted local businesses, services, and networking opportunities in your area.">
+<title>Home: Chamber of Commerce | Find Local Businesses & Services</title>
+<meta name="description" content="Explore the Chamber of Commerce  to find trusted local businesses, services, and networking opportunities in your area.">
 <meta name="author" content="Olubisi Ayantoye">
 
 <!-- Favicon -->
@@ -16,22 +16,23 @@
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://olubisiayantoye.github.io/wdd231/chamber/images/chamber-directory-preview.webp">
 <meta property="og:url" content="https://olubisiayantoye.github.io/wdd231/chamber">
-<meta property="og:description" content="Discover top local businesses and services in the Chamber of Commerce Directory.">
+<meta property="og:description" content="Discover top local businesses and services in the Chamber of Commerce .">
 
 <!-- Twitter Card for Better Social Sharing -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Chamber of Commerce Directory | Local Businesses & Services">
-<meta name="twitter:description" content="Find trusted local businesses and connect with the community through our Chamber of Commerce Directory.">
+<meta name="twitter:title" content="Home: Chamber of Commerce  | Local Businesses & Services">
+<meta name="twitter:description" content="Find trusted local businesses and connect with the community through our Chamber of Commerce.">
 <meta name="twitter:image" content="https://olubisiayantoye.github.io/wdd231/chamber/images/chamber-directory-preview.webp">
 
 <link rel="stylesheet" href="styles/styles.css">
 
 </head>
 <body>
+ 
     <header>
     <div class="container header-container">
-    <div class="logo">
-        <img src="images/imga.png" alt="Timbuktu Logo">
+    <div class="logo ">
+        <img class="circle" src="images/imga.png" alt="Timbuktu Logo">
       <div>
         <h2>Timbuktu Chamber</h2>
         <p>Chamber of Commerce</p>
@@ -54,16 +55,47 @@
     <button id="menu-toggle" class="hamburger">☰</button>
 
 </div>
-</header>
+    </header>
 
-<main>
-  <h1>Business Directory</h1>
-	<div class="menu-byu">
-		<button id="grid" data-view="grid">Grid View</button>
-    <button id="list" data-view="list">List View</button>
-	</div>
-  <hr>
-	<div class="grid" id="members-container"> 
+    <div class="hero hero-section py-5">
+        <div class="container">
+        <h1 class="display-4">Welcome to Discover Nigeria</h1>
+        <p class="lead">Explore the vibrant culture, breathtaking landmarks, delicious cuisine, and boundless potential of Nigeria.</p>
+      
+      <button class="cta-button">Keynote Tickets</button>
+    </div>
+    </div>
+  
+      <!-- Home Section -->
+      <section id="home" class="home-content">
+         
+          <div class="content-grid grid">
+  
+            <div class="card events">
+              <div class="card-header">Upcoming Events</div>
+              <div class="card-body events">
+                <div id="event-list"></div>
+            </div>
+            </div>
+              <div class="card ">
+                <div class="card-header">Current Weather</div>
+                 <div class="card-body weather ">
+                   <p>75°F, Partly Cloudy<br>High: 85°F | Low: 52°F</p>
+                 </div>
+            </div>
+              
+  
+              
+          </div>
+      </section>
+
+      
+<h1>Chamber of Commerce |  Spotlights</h1>
+<!-- Business Directory -->
+<main id="directory" class="business-directory">
+  
+  <div class="business-grid" id="members-container" >
+      
   </div>
 </main>
 
@@ -92,7 +124,8 @@
         </div>
     </div>
 </footer>
-<script src="scripts/script.js"></script>
+<script src="scripts/chamber.js"></script>
   
 </body>
 </html>
+

@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Urban Brew Cafe",
+        "address": "123 Awolowo Road, Ikoyi, Lagos, NG 101233",
+        "phone_number": "+234 802 123 4567",
+        "website_url": "http://www.urbanbrewcafe.ng",
+        "image_icon": "images/cafe-logo.webp",
+        "membership_level": 2
+    },
+    {
+        "name": "FitZone Gym",
+        "address": "456 Adeola Odeku, Victoria Island, Lagos, NG 101241",
+        "phone_number": "+234 803 234 5678",
+        "website_url": "https://www.fitzonegym.ng",
+        "image_icon": "images/gym-zone-logo.webp",
+        "membership_level": 3
+    },
+    {
+        "name": "TechHive Co-Working Space",
+        "address": "789 Herbert Macaulay Way, Yaba, Lagos, NG 101212",
+        "phone_number": "+234 704 345 6789",
+        "website_url": "https://www.techhiveworkspace.ng",
+        "image_icon": "images/techhive-logo.webp",
+        "membership_level": 2
+    },
+    {
+        "name": "Green Planet Landscaping",
+        "address": "101 Gudu Road, Abuja, NG 900001",
+        "phone_number": "+234 809 456 7890",
+        "website_url": "https://www.greenplanetlandscaping.ng",
+        "image_icon": "images/green-planet-logo.webp",
+        "membership_level": 1
+    },
+    {
+        "name": "SmartStart Tutoring Center",
+        "address": "202 School Road, Surulere, Lagos, NG 101283",
+        "phone_number": "+234 701 567 8901",
+        "website_url": "https://www.smartstarttutoring.ng",
+        "image_icon": "images/smart-start-logo.webp",
+        "membership_level": 1
+    },
+    {
+        "name": "Crafty Fox Art Supplies",
+        "address": "303 Artisans Street, Ikeja, Lagos, NG 101282",
+        "phone_number": "+234 814 678 9012",
+        "website_url": "https://www.craftyfoxarts.ng",
+        "image_icon": "images/meralco.webp",
+        "membership_level": 2
+    },
+    {
+        "name": "Sari-Taste of Naija Restaurant",
+        "address": "404 Jollof Avenue, Garki, Abuja, NG 900102",
+        "phone_number": "+234 802 789 0123",
+        "website_url": "https://www.tasteofnaija.ng",
+        "image_icon": "images/sari-sari.webp",
+        "membership_level": 3
+    },
+    {
+        "name": "Humane-Eko Digital Hub",
+        "address": "505 Tech Valley, Lekki, Lagos, NG 101233",
+        "phone_number": "+234 908 123 7890",
+        "website_url": "https://www.ekodigitalhub.ng",
+        "image_icon": "images/humane.webp",
+        "membership_level": 2
+    },
+    {
+        "name": "fairdeal Mart Superstore",
+        "address": "606 Shopping Plaza, Wuse, Abuja, NG 900211",
+        "phone_number": "+234 815 234 5678",
+        "website_url": "https://www.megamart.ng",
+        "image_icon": "images/fairdeal.webp",
+        "membership_level": 3
+    },
+    {
+        "name": "Crea8 Spa & Wellness",
+        "address": "707 Relaxation Street, Victoria Island, Lagos, NG 101241",
+        "phone_number": "+234 807 456 6789",
+        "website_url": "https://www.lushspa.ng",
+        "image_icon": "images/crea8.webp",
+        "membership_level": 2
+    }
+]

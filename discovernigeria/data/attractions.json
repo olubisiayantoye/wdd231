@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Zuma Rock",
+        "description": "A massive monolithic rock, also called the 'Gateway to Abuja'.",
+        "location": "Niger State",
+        "distance_km_from_abuja": 55,
+        "date": "Natural formation, millions of years old",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Zuma_Rock%2C_Nigeria.jpg"
+    },
+    {
+        "title": "Aso Rock",
+        "description": "A prominent rock formation near the Presidential Villa.",
+        "location": "Abuja",
+        "distance_km_from_abuja": 0,
+        "date": "Natural formation, millions of years old",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Aso_Rock_from_Sheraton.jpg"
+    },
+    {
+        "title": "Yankari National Park",
+        "description": "Nigeria’s largest wildlife park, home to elephants and lions.",
+        "location": "Bauchi State",
+        "distance_km_from_abuja": 453,
+        "date": "Established in 1956",
+        "image_url": "images/640px-Yankari_Elephants.jpg"
+    },
+    {
+        "title": "Olumo Rock",
+        "description": "A historic rock used as a fortress by the Egba people.",
+        "location": "Ogun State",
+        "distance_km_from_abuja": 674,
+        "date": "Natural formation, historical significance since the 19th century",
+        "image_url": "images/640px-Elevator_gears_at_Olumo.jpg"
+    },
+    {
+        "title": "Erin Ijesha Waterfall",
+        "description": "A stunning seven-tier waterfall surrounded by greenery.",
+        "location": "Osun State",
+        "distance_km_from_abuja": 413,
+        "date": "Natural formation, discovered in the 17th century",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Erin_Ijesha_Waterfall.jpg"
+    },
+    {
+        "title": "Ikogosi Warm Springs",
+        "description": "A unique spring where warm and cold water flow side by side.",
+        "location": "Ekiti State",
+        "distance_km_from_abuja": 342,
+        "date": "Natural formation, historically known for its healing properties",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ikogosi_Warm_Spring.jpg"
+    },
+    {
+        "title": "Lekki Conservation Centre",
+        "description": "A natural reserve featuring a canopy walkway, wildlife, and nature trails.",
+        "location": "Lagos State",
+        "distance_km_from_abuja": 746,
+        "date": "Established in 1990",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Lekki_Conservation_Centre_walkway.jpg"
+    },
+    {
+        "title": "Obudu Mountain Resort",
+        "description": "A scenic resort located in the highlands of Cross River State.",
+        "location": "Cross River State",
+        "distance_km_from_abuja": 475,
+        "date": "Established in 1951",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Obudu_Mountain_Resort.jpg"
+    },
+    {
+        "title": "Nike Art Gallery",
+        "description": "Nigeria’s largest art gallery showcasing traditional and contemporary artworks.",
+        "location": "Lagos State",
+        "distance_km_from_abuja": 740,
+        "date": "Founded in 2009",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Nike_Art_Gallery_Lagos.jpg"
+    },
+    {
+        "title": "Millennium Park",
+        "description": "A beautiful and serene park in the heart of Abuja.",
+        "location": "Abuja",
+        "distance_km_from_abuja": 0,
+        "date": "Opened in 2003",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Millennium_Park_Abuja.jpg"
+    }
+]

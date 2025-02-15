@@ -1,0 +1,176 @@
+.hero-section {
+    background-image: url('../images/hero-bg.jpg'); 
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+} 
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFF;
+    font-size: larger;
+    
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFF;
+    font-size: larger;   
+}
+.circle {
+    border-radius: 50%;
+  }
+
+.explore-btn {
+    background-color: #16872b; 
+    color: #FFFFFF;
+    border-color: #008000;
+    border-style: double;
+}
+
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000204;
+    background-color: #e6e4e4;
+}
+
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    color: #008000; /* Main Green */
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #008000; /* Main Green */
+    border-bottom: 3px solid #FFD700; /* Gold Accent */
+}
+
+.navbar-brand, .nav-link {
+   
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #FFD700 !important; /* Gold Accent */
+}
+
+.navbar-toggler {
+    border-color: #ffffff;
+}
+
+/* Section Styling */
+.section {
+    padding: 60px 20px;
+}
+
+.section.bg-light {
+    background-color: #ffffff; /* White Background */
+}
+
+.section h2 {
+    color: #008000;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #FFD700; /* Gold Accent */
+    border: none;
+    color: #043752;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #e6c200;
+}
+
+/* Footer */
+footer {
+    background-color: #008000;;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Cards */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #008000;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #043752;
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Form Styling */
+form label {
+    font-weight: bold;
+    color: #043752;
+}
+
+form input, form textarea {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .btn-primary {
+        font-size: 0.9rem;
+    }
+}
