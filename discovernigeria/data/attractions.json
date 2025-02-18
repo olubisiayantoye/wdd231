@@ -5,7 +5,7 @@
         "location": "Niger State",
         "distance_km_from_abuja": 55,
         "date": "Natural formation, millions of years old",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Zuma_Rock%2C_Nigeria.jpg"
+        "image_url": "images/640px-Zuma_Rock.jpg"
     },
     {
         "title": "Aso Rock",
@@ -13,7 +13,7 @@
         "location": "Abuja",
         "distance_km_from_abuja": 0,
         "date": "Natural formation, millions of years old",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Aso_Rock_from_Sheraton.jpg"
+        "image_url": "images/640px-Aso_Rock_as_seen_from_the_IBB_golf_course_in_Abuja,_Nigeria.jpg"
     },
     {
         "title": "Yankari National Park",
@@ -37,7 +37,7 @@
         "location": "Osun State",
         "distance_km_from_abuja": 413,
         "date": "Natural formation, discovered in the 17th century",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Erin_Ijesha_Waterfall.jpg"
+        "image_url": "images/320px-Olumirin_falls.jpg"
     },
     {
         "title": "Ikogosi Warm Springs",
@@ -45,7 +45,7 @@
         "location": "Ekiti State",
         "distance_km_from_abuja": 342,
         "date": "Natural formation, historically known for its healing properties",
-        "image_url": "images/upload.wikimedia.org/wikipedia/commons/d/d6/Ikogosi_Warm_Spring.jpg"
+        "image_url": "images/640px-Ikogosi-Ekiti_warm_spring_06.jpg"
     },
     {
         "title": "Lekki Conservation Centre",
@@ -53,7 +53,7 @@
         "location": "Lagos State",
         "distance_km_from_abuja": 746,
         "date": "Established in 1990",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Lekki_Conservation_Centre_walkway.jpg"
+        "image_url": "images/640px-A_pathway_in_the_Lekki_Convention_Center.jpg"
     },
     {
         "title": "Obudu Mountain Resort",
@@ -61,7 +61,7 @@
         "location": "Cross River State",
         "distance_km_from_abuja": 475,
         "date": "Established in 1951",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Obudu_Mountain_Resort.jpg"
+        "image_url": "images/Fair_weather_clouds_on_Obudu_mountains.jpg"
     },
     {
         "title": "Nike Art Gallery",
@@ -69,7 +69,7 @@
         "location": "Lagos State",
         "distance_km_from_abuja": 740,
         "date": "Founded in 2009",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Nike_Art_Gallery_Lagos.jpg"
+        "image_url": "images/Nike_art_gallery,_Abuja.jpg"
     },
     {
         "title": "Millennium Park",
@@ -77,6 +77,6 @@
         "location": "Abuja",
         "distance_km_from_abuja": 0,
         "date": "Opened in 2003",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Millennium_Park_Abuja.jpg"
+        "image_url": "images/Abuja_Millenium_Park_2019_01.jpg"
     }
 ]

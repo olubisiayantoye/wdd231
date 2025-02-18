@@ -302,3 +302,11 @@ footer {
   height: 100px;
   margin-right: 20px;
 }
+
+.disconj{
+  border-bottom-width: 12px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(218 71 71);
+  color: #006400;
+  display: block;
+}
