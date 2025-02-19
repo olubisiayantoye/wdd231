@@ -4,91 +4,83 @@
 <!-- Standard Meta Tags -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home: Chamber of Commerce | Find Local Businesses & Services</title>
-<meta name="description" content="Explore the Chamber of Commerce  to find trusted local businesses, services, and networking opportunities in your area.">
+<title>Home: Discover Nigeria</title>
+<meta name="description" content="Explore Nigeria’s rich culture, history, landscapes, and traditions.">
 <meta name="author" content="Olubisi Ayantoye">
 
 <!-- Favicon -->
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 <!-- Open Graph (OG) Meta Tags for Social Media -->
-<meta property="og:title" content="Chamber of Commerce Directory | Local Businesses & Services">
+<meta property="og:title" content="Discover Nigeria">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://olubisiayantoye.github.io/wdd231/chamber/images/chamber-directory-preview.webp">
-<meta property="og:url" content="https://olubisiayantoye.github.io/wdd231/chamber">
-<meta property="og:description" content="Discover top local businesses and services in the Chamber of Commerce .">
+<meta property="og:image" content="images/nigeria-preview.webp">
+<meta property="og:url" content="https://olubisiayantoye.github.io/discover-nigeria">
+<meta property="og:description" content="Discover top cultural sites, historical landmarks, and tourist attractions in Nigeria.">
 
 <!-- Twitter Card for Better Social Sharing -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Home: Chamber of Commerce  | Local Businesses & Services">
-<meta name="twitter:description" content="Find trusted local businesses and connect with the community through our Chamber of Commerce.">
-<meta name="twitter:image" content="https://olubisiayantoye.github.io/wdd231/chamber/images/chamber-directory-preview.webp">
-
+<meta name="twitter:title" content="Home: Discover Nigeria">
+<meta name="twitter:description" content="Explore Nigeria’s beauty, culture, and history.">
+<meta name="twitter:image" content="images/nigeria-preview.webp">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="styles/styles.css">
-<link rel="stylesheet" href="styles/join.css">
 
-<script defer src="scripts/memership-levels.js"></script>
 </head>
 <body>
     <header>
-        <div class="container header-container">
-        <div class="logo">
-            <img src="images/imga.png" alt="Timbuktu Logo">
-          <div>
-            <h2>Timbuktu Chamber</h2>
-            <p>Chamber of Commerce</p>
-          </div>
-        </div>
-    
-          <nav id="main-menu" class="menu ">
-            <a href="index.html">Home</a>
-            <a href="directory.html">Directory</a>
-            <a href="join.html" title="join">Join</a>
-            <a href="discover.html" title="discover">Discover</a>
-            <!--a href="about.html">About</a>
-            <a href="events.html">Events</a>
-            <a href="membership.html">Membership</a>
-            <a href="resources.html">Resources</a>
-            <a href="contact.html">Contact</a-->
-          </nav>
-        
-        <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
-        <button id="menu-toggle" class="hamburger">☰</button>
-    
+    <div class="container header-container">
+    <div class="logo">
+        <img class="circle" src="images/nigeria-logo.png" alt="Discover Nigeria Logo">
+      <div>
+        <h2>Discover Nigeria</h2>
+        <p>Explore the Heart of Africa</p>
+      </div>
     </div>
-        </header>
+
+      <nav id="main-menu" class="menu ">
+        <a class="active" href="index.html">Home</a>
+        <a href="attractions.html">Attractions</a>
+        <a href="culture.html" title="Culture">Culture</a>
+        <a href="cuisine.html" title="Cuisine">Cuisine</a>
+        <a href="contact.html" title="Cuisine">Contact</a>
+      </nav>
+    
+    
+    <button id="menu-toggle" class="hamburger">☰</button>
+</div>
+    </header>
 
 
     <div style="text-align: center;" >
-        <h1>Thank You for Your Application!</h1>
-       <p> Thank you for your interest in joining  Chamber of Commerce.</p> 
+     
+        <h1> Thank you for your interest in Nigeria.</h1>
        <p> We are delighted to have you as part of our community!</p> 
         <p> Below are the details of your application:</p> 
     </div>
     <main>
-        <section class="jcard">
+        <div class="main-section">
            
             <ul>
-            <li><p><strong>First Name:</strong> <span id="first-name"></span></p></li>
-            <li><p><strong>Last Name:</strong> <span id="last-name"></span></p></li>
+            <li><p><strong>Full Name:</strong> <span id="first-name"></span></p></li>
             <li><p><strong>Email:</strong> <span id="email"></span></p></li>
-            <li><p><strong>Mobile Number:</strong> <span id="phone"></span></p></li>
-            <li><p><strong>Business Title:</strong> <span id="title"></span></p></li>
-            <li><p><strong>Business Name:</strong> <span id="organization"></span></p></li>
+            <li><p><strong>Subject:</strong> <span id="subject"></span></p></li>
+            <li><p><strong>Message:</strong> <span id="message"></span></p></li>
             <li><p><strong>Application Date:</strong> <span id="timestamp"></span></p></li>
-        </ul>
-        </section>
-        <a href="index.html">Return to Home</a>
+           </ul>
+           <a href="index.html">Return to Home</a>
+        </div>
+        
     </main>
 
-    <!-- Footer -->
+<!-- Footer -->
 <footer>
-    <div class="footer-content content-gridfooter  ">
+    <div class="footer-content content-gridfooter">
         <div class="cardfooter footer-info ">
-            <p>Timbuktu Chamber of Commerce<br>10 Rue De La Paix, Timbuktu, Mali</p>
-            <p>Email: info@timbuktucc.org<br>Phone: (223) 555-2300</p>
+            <p>Discover Nigeria<br>Abuja, Nigeria</p>
+            <p>Email: info@discovernigeria.org<br>Phone: +234 555 1234</p>
         </div>
-        <div class="social-links ">
+        <div class="social-links">
           <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Youtube Icon">
             <img src="images/youtube-with-circle.svg" alt="Youtube Icon" width="36" height="32">
         </a>
@@ -101,7 +93,7 @@
         </div>
 
        <div class="cardfooter">
-         <p><span id="currentYear"></span> 🌺 Timbuktu Chamber of Commerce. 🌺 All rights reserved.</p>
+         <p><span id="currentYear"></span> 🌍 Discover Nigeria. All rights reserved.</p>
          <p class="smaller" id="lastModified">Last Modification: 20/11/2024 12:00:00</p>
         </div>
     </div>
@@ -110,13 +102,14 @@
         // Parse URL parameters and display user input
         const params = new URLSearchParams(window.location.search);
         document.getElementById("first-name").innerText = params.get("first") || "N/A";
-        document.getElementById("last-name").innerText = params.get("last") || "N/A";
         document.getElementById("email").innerText = params.get("email") || "N/A";
-        document.getElementById("phone").innerText = params.get("phone") || "N/A";
-        document.getElementById("title").innerText = params.get("title") || "N/A";
-        document.getElementById("organization").innerText = params.get("organization") || "N/A";
+        document.getElementById("subject").innerText = params.get("subject") || "N/A";
+        document.getElementById("message").innerText = params.get("message") || "N/A";
         document.getElementById("timestamp").innerText = params.get("hiddendate") || "N/A";
     </script>
 </body>
-<script src="scripts/chamber.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="scripts/discover.js"></script>
+  
+</body>
 </html>
