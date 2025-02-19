@@ -285,7 +285,8 @@ footer {
 }
 .list .card {
   display: flex;
-  align-items: center;
+  align-items: baseline;
+  justify-content: space-evenly;
   text-align: left;
   max-width: 100%;
 }
@@ -306,7 +307,38 @@ footer {
 .disconj{
   border-bottom-width: 12px;
   border-bottom-style: solid;
-  border-bottom-color: rgb(218 71 71);
+  border-bottom-color: rgb(12, 161, 15);
   color: #006400;
   display: block;
+}
+
+.main-section{
+padding-top:5%;
+padding-left: 10%;
+padding-right: 10%;
+
+}
+
+/* Cards */
+.cardj {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #008000;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #043752;
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  max-height: 200px;
+  object-fit: cover;
 }

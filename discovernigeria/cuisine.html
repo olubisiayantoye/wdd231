@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Standard Meta Tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home: Discover Nigeria</title>
+<meta name="description" content="Explore Nigeria’s rich culture, history, landscapes, and traditions.">
+<meta name="author" content="Olubisi Ayantoye">
+
+<!-- Favicon -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- Open Graph (OG) Meta Tags for Social Media -->
+<meta property="og:title" content="Discover Nigeria">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/nigeria-preview.webp">
+<meta property="og:url" content="https://olubisiayantoye.github.io/discover-nigeria">
+<meta property="og:description" content="Discover top cultural sites, historical landmarks, and tourist attractions in Nigeria.">
+
+<!-- Twitter Card for Better Social Sharing -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Home: Discover Nigeria">
+<meta name="twitter:description" content="Explore Nigeria’s beauty, culture, and history.">
+<meta name="twitter:image" content="images/nigeria-preview.webp">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles/styles.css">
+
+</head>
+<body>
+    <header>
+    <div class="container header-container">
+    <div class="logo">
+        <img class="circle" src="images/nigeria-logo.png" alt="Discover Nigeria Logo">
+      <div>
+        <h2>Discover Nigeria</h2>
+        <p>Explore the Heart of Africa</p>
+      </div>
+    </div>
+
+      <nav id="main-menu" class="menu ">
+        <a href="index.html">Home</a>
+        <a href="attractions.html">Attractions</a>
+        <a href="culture.html" title="Culture">Culture</a>
+        <a href="cuisine.html" title="Cuisine">Cuisine</a>
+        <a href="contact.html" title="Cuisine">Contact</a>
+      </nav>
+    
+    
+    <button id="menu-toggle" class="hamburger">☰</button>
+</div>
+    </header>
+
+     <!-- Home Section -->
+    
+
+    <!-- Cuisine Section -->
+    <section class="section bg-light py-5">
+        <div class="container">
+            <h1 class="disconj text-center mb-4" >Cuisine</h1>
+            <p class="text-center">Savor the taste of Nigeria with its rich and diverse culinary traditions that reflect the nation's vibrant culture.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="cardj">
+                        <img data-src="images/jollof-rice.jpg" class="card-img-top lazy" alt="A plate of Jollof Rice, garnished with vegetables" loading="lazy">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #FFD700;">Jollof Rice</h5>
+                            <p class="card-text">A West African favorite, this dish combines rice, tomatoes, and spices for a delicious meal.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cardj">
+                        <img data-src="images/suya.jpg" class="card-img-top lazy" alt="Grilled Suya skewers served with onions and spices" loading="lazy">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #FFD700;">Suya</h5>
+                            <p class="card-text">A spicy meat skewer delicacy, often served with sliced onions and peppers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cardj">
+                        <img data-src="images/egusi.jpg" class="card-img-top lazy" alt="A bowl of Egusi Soup with vegetables and meat" loading="lazy">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #FFD700;">Egusi Soup</h5>
+                            <p class="card-text">A hearty soup made with melon seeds, vegetables, and assorted meats.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 align-items-center">
+                <div class="col-md-6">
+                    <h2 style="color: #008000;">Akara</h2>
+                    <p>Deep-fried bean cakes, crispy on the outside and soft on the inside, commonly eaten as a snack or breakfast.</p>
+                </div>
+                <div class="col-md-6">
+                    <img data-src="images/akara.jpg" alt="A plate of freshly fried Akara served as a snack" class="img-fluid lazy" loading="lazy">
+                </div>
+            </div>
+
+            <div class="row mt-5 align-items-center">
+                <div class="col-md-6 order-md-2">
+                    <h2 style="color: #008000;">Moi Moi</h2>
+                    <p>A steamed bean pudding delicacy, Moi Moi is a versatile dish often served alongside rice dishes.</p>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <img data-src="images/moimoi.jpg" alt="A serving of Moi Moi wrapped in leaves" class="img-fluid lazy" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home-content">
+         
+        <div class="content-grid grid">
+          <div class="card events">
+            <div class="card-header">Upcoming Festivals</div>
+            <div class="card-body events">
+              <div id="event-list"></div>
+          </div>
+          </div>
+          <div class="card ">
+              <div class="card-header">Current Weather</div>
+               <div class="card-body weather ">
+                 <p>86°F, Sunny<br>High: 90°F | Low: 75°F</p>
+               </div>
+          </div>
+          <div class="card events">
+            <div class="card-header">Upcoming Festivals</div>
+            <div class="card-body events">
+              <div id="event-list"></div>
+          </div>
+          </div>
+          <div class="card ">
+              <div class="card-header">Current Weather</div>
+               <div class="card-body weather ">
+                 <p>86°F, Sunny<br>High: 90°F | Low: 75°F</p>
+               </div>
+          </div>
+        </div>
+    </section>
+    <section class="home-content">
+         
+        <div class="content-grid grid">
+          <div class="card events">
+            <div class="card-header">Upcoming Festivals</div>
+            <div class="card-body events">
+              <div id="event-list"></div>
+          </div>
+          </div>
+          <div class="card ">
+              <div class="card-header">Current Weather</div>
+               <div class="card-body weather ">
+                 <p>86°F, Sunny<br>High: 90°F | Low: 75°F</p>
+               </div>
+          </div>
+          <div class="card events">
+            <div class="card-header">Upcoming Festivals</div>
+            <div class="card-body events">
+              <div id="event-list"></div>
+          </div>
+          </div>
+          <div class="card ">
+              <div class="card-header">Current Weather</div>
+               <div class="card-body weather ">
+                 <p>86°F, Sunny<br>High: 90°F | Low: 75°F</p>
+               </div>
+          </div>
+        </div>
+    </section>
+<!-- Footer -->
+<footer>
+    <div class="footer-content content-gridfooter">
+        <div class="cardfooter footer-info ">
+            <p>Discover Nigeria<br>Abuja, Nigeria</p>
+            <p>Email: info@discovernigeria.org<br>Phone: +234 555 1234</p>
+        </div>
+        <div class="social-links">
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Youtube Icon">
+            <img src="images/youtube-with-circle.svg" alt="Youtube Icon" width="36" height="32">
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter Icon">
+            <img src="images/twitter-logo.svg" alt="Twitter Icon" width="36" height="32">
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram Icon">
+            <img src="images/instagram-logo.svg" alt="Instagram Icon" width="36" height="32">
+        </a>
+        </div>
+
+       <div class="cardfooter">
+         <p><span id="currentYear"></span> 🌍 Discover Nigeria. All rights reserved.</p>
+         <p class="smaller" id="lastModified">Last Modification: 20/11/2024 12:00:00</p>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="scripts/discover.js"></script>
+  
+</body>
+</html>
