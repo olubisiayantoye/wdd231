@@ -425,13 +425,7 @@ height:200p;
 }
 
 /* Input and button inside modal */
-input[type="email"] {
-  width: 90%;
-  padding: 8px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
+
 
 .submit-btn {
   background-color: #007bff;
